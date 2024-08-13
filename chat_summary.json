@@ -18,5 +18,11 @@
         "content": "Great idea! We will add more detail to the hero section and include some of our happy customer testimonials to showcase our success.",
         "timestamp": "13082024134101",
         "message_id": "guest13082024134101"
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the testimonials to be displayed as a static list or as a dynamic, sliding carousel?\", \"option1\": \"Static list\", \"option2\": \"Dynamic carousel\"}, {\"question 2\": \"Do you prefer to feature textual testimonials only, or would you also like to include user photos and ratings?\", \"option1\": \"Textual testimonials only\", \"option2\": \"Text, photos, and ratings\"}], \"input_token_count\": 256, \"output_token_count\": 99, \"time_taken\": \"0:00:06.751976\"}",
+        "timestamp": "13082024134108",
+        "message_id": "guest13082024134101"
     }
 ]
