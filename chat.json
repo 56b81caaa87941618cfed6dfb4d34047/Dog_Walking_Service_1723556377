@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Certainly, I'll create a form for walking a dog.",
+        "message_id": "guest13082024135222",
+        "timestamp": "13082024135222",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "repalce with a form for walking a dog",
         "message_id": "guest13082024135222",
