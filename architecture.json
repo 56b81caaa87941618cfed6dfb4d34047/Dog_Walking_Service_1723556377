@@ -10,5 +10,9 @@
     {
         "level": 1,
         "task_description": "This is the user's previous chat history with this AI:\n\nUser: add more detail to the hero with testimonials\nAI: Great idea! We will add more detail to the hero section and include some of our happy customer testimonials to showcase our success.\nThis is the user's current request of changes to be made: replace this with 10 features instead of 6, and styled with lots of pink themes"
+    },
+    {
+        "level": 1,
+        "task_description": "This is the user's previous chat history with this AI:\n\nUser: add more detail to the hero with testimonials\nAI: Great idea! We will add more detail to the hero section and include some of our happy customer testimonials to showcase our success.\nThis is the user's current request of changes to be made: replace this with 10 features instead of 6, and styled with lots of pink themes"
     }
 ]
