@@ -6,64 +6,92 @@ The feature sections are organised in a grid of two rows, each with three column
 Vue.component("purple_feature_grid_component_1723556378", {
     template: `
     <!-- Features list -->
-    <div id="features-grid" style="min-height: 230px" class="grid md:grid-cols-3 gap-8 md:gap-12 bg-white p-5">
-        <!-- Feature -->
-        <div id="feature-1">
-            <div id="feature-1-header" class="flex items-center space-x-2 mb-1">
-                <svg id="feature-1-icon" class="shrink-0" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="M7.999 2.34a4.733 4.733 0 0 0-6.604 6.778l5.904 5.762a1 1 0 0 0 1.4 0l5.915-5.77a4.733 4.733 0 0 0-6.615-6.77Zm5.208 5.348-5.208 5.079-5.2-5.07a2.734 2.734 0 0 1 3.867-3.864c.182.19.335.404.455.638a1.04 1.04 0 0 0 1.756 0 2.724 2.724 0 0 1 5.122 1.294 2.7 2.7 0 0 1-.792 1.923Z" :class="textFillStylePrimary" /></svg>
-                <div class="flex" id="feature-1-title-container"><h4 id="feature-1-title" class="flex-1 font-medium" :class="textSecondaryStyle">Convenient Scheduling</h4></div>
+    <div id="features-grid" style="min-height: 230px" class="grid md:grid-cols-3 gap-8 md:gap-12 bg-pink-50 p-8 rounded-lg shadow-lg">
+        <!-- Feature 1 -->
+        <div id="feature-1" class="bg-white p-6 rounded-xl shadow-md border-2 border-pink-200">
+            <div id="feature-1-header" class="flex items-center space-x-2 mb-3">
+                <svg id="feature-1-icon" class="shrink-0 w-8 h-8 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                <div class="flex" id="feature-1-title-container"><h4 id="feature-1-title" class="flex-1 font-bold text-pink-700">24/7 Availability</h4></div>
             </div>
-            <div class="flex" id="feature-1-description-container"><p id="feature-1-description" class="flex-1 text-sm" :class="textPrimaryStyle">Easily book dog walks with just a few taps, fitting perfectly into your busy lifestyle.</p></div>
+            <div class="flex" id="feature-1-description-container"><p id="feature-1-description" class="flex-1 text-sm text-pink-600">Book a walk anytime, day or night, to fit your busy schedule.</p></div>
         </div>
-        <!-- Feature -->
-        <div id="feature-2">
-            <div id="feature-2-header" class="flex items-center space-x-2 mb-1">
-                <svg id="feature-2-icon" class="shrink-0" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="M11 0c1.3 0 2.6.5 3.5 1.5 1 .9 1.5 2.2 1.5 3.5 0 1.3-.5 2.6-1.4 3.5l-1.2 1.2c-.2.2-.5.3-.7.3-.2 0-.5-.1-.7-.3-.4-.4-.4-1 0-1.4l1.1-1.2c.6-.5.9-1.3.9-2.1s-.3-1.6-.9-2.2C12 1.7 10 1.7 8.9 2.8L7.7 4c-.4.4-1 .4-1.4 0-.4-.4-.4-1 0-1.4l1.2-1.1C8.4.5 9.7 0 11 0ZM8.3 12c.4-.4 1-.5 1.4-.1.4.4.4 1 0 1.4l-1.2 1.2C7.6 15.5 6.3 16 5 16c-1.3 0-2.6-.5-3.5-1.5C.5 13.6 0 12.3 0 11c0-1.3.5-2.6 1.5-3.5l1.1-1.2c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4L2.9 8.9c-.6.5-.9 1.3-.9 2.1s.3 1.6.9 2.2c1.1 1.1 3.1 1.1 4.2 0L8.3 12Zm1.1-6.8c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-4.2 4.2c-.2.2-.5.3-.7.3-.2 0-.5-.1-.7-.3-.4-.4-.4-1 0-1.4l4.2-4.2Z" :class="textFillStylePrimary" /></svg>
-                <div class="flex" id="feature-2-title-container"><h4 id="feature-2-title" class="flex-1 font-medium" :class="textSecondaryStyle">Reliable Walker Network</h4></div>
+        <!-- Feature 2 -->
+        <div id="feature-2" class="bg-white p-6 rounded-xl shadow-md border-2 border-pink-200">
+            <div id="feature-2-header" class="flex items-center space-x-2 mb-3">
+                <svg id="feature-2-icon" class="shrink-0 w-8 h-8 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                <div class="flex" id="feature-2-title-container"><h4 id="feature-2-title" class="flex-1 font-bold text-pink-700">Vetted Walkers</h4></div>
             </div>
-            <div class="flex" id="feature-2-description-container"><p id="feature-2-description" class="flex-1 text-sm" :class="textPrimaryStyle">Access our vetted and trained network of professional dog walkers for peace of mind.</p></div>
+            <div class="flex" id="feature-2-description-container"><p id="feature-2-description" class="flex-1 text-sm text-pink-600">All our walkers undergo thorough background checks and training.</p></div>
         </div>
-        <!-- Feature -->
-        <div id="feature-3">
-            <div id="feature-3-header" class="flex items-center space-x-2 mb-1">
-                <svg id="feature-3-icon" class="shrink-0" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="M14 0a2 2 0 0 1 2 2v4a1 1 0 0 1-2 0V2H2v12h4a1 1 0 0 1 0 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12Zm-1.957 10.629 3.664 3.664a1 1 0 0 1-1.414 1.414l-3.664-3.664-.644 2.578a.5.5 0 0 1-.476.379H9.5a.5.5 0 0 1-.48-.362l-2-7a.5.5 0 0 1 .618-.618l7 2a.5.5 0 0 1-.017.965l-2.578.644Z" :class="textFillStylePrimary" /></svg>
-                <div class="flex" id="feature-3-title-container"><h4 id="feature-3-title" class="flex-1 font-medium" :class="textSecondaryStyle">Real-time Tracking</h4></div>
+        <!-- Feature 3 -->
+        <div id="feature-3" class="bg-white p-6 rounded-xl shadow-md border-2 border-pink-200">
+            <div id="feature-3-header" class="flex items-center space-x-2 mb-3">
+                <svg id="feature-3-icon" class="shrink-0 w-8 h-8 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                <div class="flex" id="feature-3-title-container"><h4 id="feature-3-title" class="flex-1 font-bold text-pink-700">GPS Tracking</h4></div>
             </div>
-            <div class="flex" id="feature-3-description-container"><p id="feature-3-description" class="flex-1 text-sm" :class="textPrimaryStyle">Follow your dog's walk in real-time with GPS tracking and receive live updates.</p></div>
+            <div class="flex" id="feature-3-description-container"><p id="feature-3-description" class="flex-1 text-sm text-pink-600">Follow your dog's walk in real-time with our advanced GPS tracking.</p></div>
         </div>
-        <!-- Feature -->
-        <div id="feature-4">
-            <div id="feature-4-header" class="flex items-center space-x-2 mb-1">
-                <svg id="feature-4-icon" class="shrink-0" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="M14.3.3c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-8 8c-.2.2-.4.3-.7.3-.3 0-.5-.1-.7-.3-.4-.4-.4-1 0-1.4l8-8ZM15 7c.6 0 1 .4 1 1 0 4.4-3.6 8-8 8s-8-3.6-8-8 3.6-8 8-8c.6 0 1 .4 1 1s-.4 1-1 1C4.7 2 2 4.7 2 8s2.7 6 6 6 6-2.7 6-6c0-.6.4-1 1-1Z" :class="textFillStylePrimary" /></svg>
-                <div class="flex" id="feature-4-title-container"><h4 id="feature-4-title" class="flex-1 font-medium" :class="textSecondaryStyle">Flexible Walk Options</h4></div>
+        <!-- Feature 4 -->
+        <div id="feature-4" class="bg-white p-6 rounded-xl shadow-md border-2 border-pink-200">
+            <div id="feature-4-header" class="flex items-center space-x-2 mb-3">
+                <svg id="feature-4-icon" class="shrink-0 w-8 h-8 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"></path></svg>
+                <div class="flex" id="feature-4-title-container"><h4 id="feature-4-title" class="flex-1 font-bold text-pink-700">Secure Payments</h4></div>
             </div>
-            <div class="flex" id="feature-4-description-container"><p id="feature-4-description" class="flex-1 text-sm" :class="textPrimaryStyle">Choose from various walk durations and types to suit your dog's needs and energy levels.</p></div>
+            <div class="flex" id="feature-4-description-container"><p id="feature-4-description" class="flex-1 text-sm text-pink-600">Enjoy hassle-free, automatic payments after each walk.</p></div>
         </div>
-        <!-- Feature -->
-        <div id="feature-5">
-            <div id="feature-5-header" class="flex items-center space-x-2 mb-1">
-                <svg id="feature-5-icon" class="shrink-0" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="M14 0a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12Zm0 14V2H2v12h12Zm-3-7H5a1 1 0 1 1 0-2h6a1 1 0 0 1 0 2Zm0 4H5a1 1 0 0 1 0-2h6a1 1 0 0 1 0 2Z" :class="textFillStylePrimary" /></svg>
-                <div class="flex" id="feature-5-title-container"><h4 id="feature-5-title" class="flex-1 font-medium" :class="textSecondaryStyle">Secure Payment System</h4></div>
+        <!-- Feature 5 -->
+        <div id="feature-5" class="bg-white p-6 rounded-xl shadow-md border-2 border-pink-200">
+            <div id="feature-5-header" class="flex items-center space-x-2 mb-3">
+                <svg id="feature-5-icon" class="shrink-0 w-8 h-8 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path></svg>
+                <div class="flex" id="feature-5-title-container"><h4 id="feature-5-title" class="flex-1 font-bold text-pink-700">Detailed Reports</h4></div>
             </div>
-            <div class="flex" id="feature-5-description-container"><p id="feature-5-description" class="flex-1 text-sm" :class="textPrimaryStyle">Enjoy hassle-free, automatic payments after each walk with our secure in-app system.</p></div>
+            <div class="flex" id="feature-5-description-container"><p id="feature-5-description" class="flex-1 text-sm text-pink-600">Receive comprehensive post-walk reports with photos and behavior notes.</p></div>
         </div>
-        <!-- Feature -->
-        <div id="feature-6">
-            <div id="feature-6-header" class="flex items-center space-x-2 mb-1">
-                <svg id="feature-6-icon" class="shrink-0" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="M14.574 5.67a13.292 13.292 0 0 1 1.298 1.842 1 1 0 0 1 0 .98C15.743 8.716 12.706 14 8 14a6.391 6.391 0 0 1-1.557-.2l1.815-1.815C10.97 11.82 13.06 9.13 13.82 8c-.163-.243-.39-.56-.669-.907l1.424-1.424ZM.294 15.706a.999.999 0 0 1-.002-1.413l2.53-2.529C1.171 10.291.197 8.615.127 8.49a.998.998 0 0 1-.002-.975C.251 7.29 3.246 2 8 2c1.331 0 2.515.431 3.548 1.038L14.293.293a.999.999 0 1 1 1.414 1.414l-14 14a.997.997 0 0 1-1.414 0ZM2.18 8a12.603 12.603 0 0 0 2.06 2.347l1.833-1.834A1.925 1.925 0 0 1 6 8a2 2 0 0 1 2-2c.178 0 .348.03.512.074l1.566-1.566C9.438 4.201 8.742 4 8 4 5.146 4 2.958 6.835 2.181 8Z" :class="textFillStylePrimary" /></svg>
-                <div class="flex" id="feature-6-title-container"><h4 id="feature-6-title" class="flex-1 font-medium" :class="textSecondaryStyle">Detailed Walk Reports</h4></div>
+        <!-- Feature 6 -->
+        <div id="feature-6" class="bg-white p-6 rounded-xl shadow-md border-2 border-pink-200">
+            <div id="feature-6-header" class="flex items-center space-x-2 mb-3">
+                <svg id="feature-6-icon" class="shrink-0 w-8 h-8 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                <div class="flex" id="feature-6-title-container"><h4 id="feature-6-title" class="flex-1 font-bold text-pink-700">Emergency Support</h4></div>
             </div>
-            <div class="flex" id="feature-6-description-container"><p id="feature-6-description" class="flex-1 text-sm" :class="textPrimaryStyle">Receive comprehensive post-walk reports including photos, pee/poop logs, and behavior notes.</p></div>
+            <div class="flex" id="feature-6-description-container"><p id="feature-6-description" class="flex-1 text-sm text-pink-600">24/7 emergency support for peace of mind during walks.</p></div>
         </div>
-    </div>`,
+        <!-- Feature 7 -->
+        <div id="feature-7" class="bg-white p-6 rounded-xl shadow-md border-2 border-pink-200">
+            <div id="feature-7-header" class="flex items-center space-x-2 mb-3">
+                <svg id="feature-7-icon" class="shrink-0 w-8 h-8 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"></path></svg>
+                <div class="flex" id="feature-7-title-container"><h4 id="feature-7-title" class="flex-1 font-bold text-pink-700">In-app Chat</h4></div>
+            </div>
+            <div class="flex" id="feature-7-description-container"><p id="feature-7-description" class="flex-1 text-sm text-pink-600">Communicate directly with your walker through our secure in-app chat.</p></div>
+        </div>
+        <!-- Feature 8 -->
+        <div id="feature-8" class="bg-white p-6 rounded-xl shadow-md border-2 border-pink-200">
+            <div id="feature-8-header" class="flex items-center space-x-2 mb-3">
+                <svg id="feature-8-icon" class="shrink-0 w-8 h-8 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path></svg>
+                <div class="flex" id="feature-8-title-container"><h4 id="feature-8-title" class="flex-1 font-bold text-pink-700">Customized Walks</h4></div>
+            </div>
+            <div class="flex" id="feature-8-description-container"><p id="feature-8-description" class="flex-1 text-sm text-pink-600">Tailor each walk to your dog's specific needs and preferences.</p></div>
+        </div>
+        <!-- Feature 9 -->
+        <div id="feature-9" class="bg-white p-6 rounded-xl shadow-md border-2 border-pink-200">
+            <div id="feature-9-header" class="flex items-center space-x-2 mb-3">
+                <svg id="feature-9-icon" class="shrink-0 w-8 h-8 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                <div class="flex" id="feature-9-title-container"><h4 id="feature-9-title" class="flex-1 font-bold text-pink-700">Flexible Pricing</h4></div>
+            </div>
+            <div class="flex" id="feature-9-description-container"><p id="feature-9-description" class="flex-1 text-sm text-pink-600">Choose from various pricing options to suit your budget and needs.</p></div>
+        </div>
+        <!-- Feature 10 -->
+        <div id="feature-10" class="bg-white p-6 rounded-xl shadow-md border-2 border-pink-200">
+            <div id="feature-10-header" class="flex items-center space-x-2 mb-3">
+                <svg id="feature-10-icon" class="shrink-0 w-8 h-8 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path></svg>
+                <div class="flex" id="feature-10-title-container"><h4 id="feature-10-title" class="flex-1 font-bold text-pink-700">Loyalty Program</h4></div>
+            </div>
+            <div class="flex" id="feature-10-description-container"><p id="feature-10-description" class="flex-1 text-sm text-pink-600">Earn rewards and discounts through our customer loyalty program.</p></div>
+        </div>
+    </div>
         data() {
             return {
                 expanded: false, 
                 tab: null,
-                textFillStylePrimary: "fill-slate-300",
-                textPrimaryStyle: "text-slate-400",
-                textSecondaryStyle: "text-slate-50",
-            };
         },
     });
                     
