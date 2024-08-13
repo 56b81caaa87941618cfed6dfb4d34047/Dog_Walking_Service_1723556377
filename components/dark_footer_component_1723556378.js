@@ -8,7 +8,7 @@
 
 Vue.component("dark_footer_component_1723556378", {
     template: `
-<footer id="footer-section-container">
+<footer id="footer-section-container" style="min-height: 470px">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 bg-white">
         <div class="py-8 md:py-12">
             <h2 class="text-2xl font-bold mb-6 text-center">Schedule a Dog Walk</h2>
