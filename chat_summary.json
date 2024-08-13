@@ -42,5 +42,11 @@
         "content": "Absolutely, increasing features and adding pink themes as requested.",
         "timestamp": "13082024134309",
         "message_id": "guest13082024134309"
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the 10 features to be evenly distributed across the interface, or concentrated in specific areas for more visual impact?\", \"option1\": \"Evenly distributed\", \"option2\": \"Concentrated in specific areas\"}, {\"question 2\": \"When you mention 'styled with lots of pink themes', are you envisioning a bold, vibrant pink as the primary color, or a softer, pastel pink to subtly accent the design?\", \"option1\": \"Bold, vibrant pink\", \"option2\": \"Softer, pastel pink\"}], \"input_token_count\": 329, \"output_token_count\": 126, \"time_taken\": \"0:00:04.431693\"}",
+        "timestamp": "13082024134314",
+        "message_id": "guest13082024134309"
     }
 ]
