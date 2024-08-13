@@ -1,5 +1,23 @@
 [
     {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Ability to choose walk duration (e.g., 30min, 1hr)\", \"checked\": true}, {\"feature\": \"Option to select preferred dog walker\", \"checked\": true}, {\"feature\": \"Input for special instructions for the walker (e.g., dog's behavior notes)\", \"checked\": true}, {\"feature\": \"Calendar integration for scheduling the walk\", \"checked\": true}, {\"feature\": \"Price estimator based on walk duration and additional services\", \"checked\": false}, {\"feature\": \"Add-on services selection (e.g., feeding, playing)\", \"checked\": false}], \"input_token_count\": 212, \"output_token_count\": 124, \"time_taken\": \"0:00:05.372851\"}",
+        "message_id": "guest13082024135222",
+        "timestamp": "13082024135228",
+        "component_file_name": "dark_footer_component_1723556378",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the dog walking form to be a standalone page or integrated within an existing page?\", \"option1\": \"Standalone page\", \"option2\": \"Integrated within an existing page\"}, {\"question 2\": \"Should the form include options for recurring walks or just single appointments?\", \"option1\": \"Include options for recurring walks\", \"option2\": \"Single appointments only\"}], \"input_token_count\": 258, \"output_token_count\": 92, \"time_taken\": \"0:00:02.469121\"}",
+        "message_id": "guest13082024135222",
+        "timestamp": "13082024135225",
+        "component_file_name": "dark_footer_component_1723556378",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Certainly, I'll create a form for walking a dog.",
         "message_id": "guest13082024135222",
@@ -72,27 +90,9 @@
         "div_action": ""
     },
     {
-        "role": "chat_acknowledge",
-        "content": "Great idea! We will add more detail to the hero section and include some of our happy customer testimonials to showcase our success.",
-        "message_id": "guest13082024134101",
-        "timestamp": "13082024134101",
-        "component_file_name": "",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "user",
-        "content": "add more detail to the hero with testimonials",
-        "message_id": "guest13082024134101",
-        "timestamp": "13082024134101",
-        "component_file_name": "purple_background_cta_component_1723556378",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
         "role": "summary",
-        "content": "Can you describe the project a bit more?",
-        "timestamp": "13082024135222",
+        "content": "In the conversation, the user suggested adding more detail to the hero section and including customer testimonials to highlight the project's success. The AI agreed with this idea, acknowledging it as a great suggestion. The AI then sought clarification by asking the user to describe the project in more detail to better understand how to implement the changes.",
+        "timestamp": "13082024135228",
         "message_id": "guest13082024135222"
     }
 ]
