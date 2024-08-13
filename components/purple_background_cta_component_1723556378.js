@@ -24,7 +24,17 @@ Vue.component("purple_background_cta_component_1723556378", {
                 <div id="content" class="max-w-3xl mx-auto text-center">
                     <div id="content-subtitle" class="flex"><div id="content-subtitle-text" class="flex-1 font-medium bg-clip-text pb-3" :class="[transparentTextStyle, contentSubtitleStyle]">Reliable, Safe, and Fun Walks for Your Canine Companion</div></div>
                     <div class="flex" id="content-title-container"><h2 id="content-title" class="flex-1 h2 bg-clip-text pb-4" :class="[transparentTextStyle, contentCtaTitleStyle]"> Walk This Way: Your Dog's New Best Friend</h2></div>
-                    <div class="flex" id="content-body-container"><p id="content-body" class="flex-1 text-lg mb-8" :class="[contentBodyStyle]">Discover the easiest way to keep your furry friend happy and healthy with our professional dog walking service.</p></div>
+                    <div class="flex" id="content-body-container"><p id="content-body" class="flex-1 text-lg mb-8" :class="[contentBodyStyle]">Discover the easiest way to keep your furry friend happy and healthy with our professional dog walking service. Our experienced walkers provide personalized care, ensuring your dog gets the exercise and attention they deserve.</p></div>
+                    <div class="grid grid-cols-2 gap-4 mb-8">
+                        <div class="flex-1 bg-white bg-opacity-10 p-4 rounded-lg shadow-md">
+                            <p class="text-sm italic text-slate-300 mb-2">"The best dog walking service I've ever used! My pup comes back happy and tired every time."</p>
+                            <p class="text-xs font-semibold text-slate-200">- Sarah M.</p>
+                        </div>
+                        <div class="flex-1 bg-white bg-opacity-10 p-4 rounded-lg shadow-md">
+                            <p class="text-sm italic text-slate-300 mb-2">"Reliable, professional, and caring. I couldn't ask for better dog walkers!"</p>
+                            <p class="text-xs font-semibold text-slate-200">- John D.</p>
+                        </div>
+                    </div>
                     <a id="content-cta-button" href="#0" class="btn transition duration-150 ease-in-out group" :class="[contentCtaButtonPrimaryStyle, contentCtaButtonGradientStyle, contentCtaButtonGradientStyle, contentCtaButtonHoverStyle]">Get Started <span id="content-cta-arrow" class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1" :class="contentCtaArrowStyle">-&gt;</span></a>
                 </div>
             </div>
