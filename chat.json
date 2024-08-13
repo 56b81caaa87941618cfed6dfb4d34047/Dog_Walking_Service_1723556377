@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Great idea! We will add more detail to the hero section and include some of our happy customer testimonials to showcase our success.",
+        "message_id": "guest13082024134101",
+        "timestamp": "13082024134101",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "add more detail to the hero with testimonials",
         "message_id": "guest13082024134101",
